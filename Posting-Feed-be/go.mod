@@ -4,7 +4,17 @@ require Posting-Feed-be/transport v0.0.0
 
 require Posting-Feed-be/datastruct v0.0.0 //indirect
 
-require Posting-Feed-be/logging v0.0.0 //indirect
+require (
+	Posting-Feed-be/logging v0.0.0 //indirect
+	github.com/andybalholm/brotli v1.0.2 // indirect
+	github.com/gofiber/fiber/v2 v2.23.0 // indirect
+	github.com/google/uuid v1.3.0 // indirect
+	github.com/klauspost/compress v1.13.6 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v1.31.0 // indirect
+	github.com/valyala/tcplisten v1.0.0 // indirect
+	golang.org/x/sys v0.0.0-20210917161153-d61c044b1678 // indirect
+)
 
 require (
 	Posting-Feed-be/service v0.0.0 //indirect

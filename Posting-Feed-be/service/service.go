@@ -64,7 +64,7 @@ func Create(image_feed string, caption_feed string) string {
 	defer db.Close()
 	var response string
 
-	insertStmt := `insert into feeds values(nextval('seq_feed_id'), 987654321, $1, $2, current_timestamp)`
+	insertStmt := `insert into feeds values(nextval('seq_feed_id'), 201511000, $1, $2, current_timestamp)`
 	_, e := db.Exec(insertStmt, image_feed, caption_feed)
 	if e != nil {
 		panic(e)
